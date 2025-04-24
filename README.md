@@ -102,9 +102,6 @@ The application includes a simulated WebSocket service that mimics real-time cry
 
 Styling is implemented with Tailwind CSS, providing a responsive and modern UI that adapts to different screen sizes. The application supports both dark and light modes for user preference.
 
-## License
-
-MIT
 
 ## Acknowledgments
 
