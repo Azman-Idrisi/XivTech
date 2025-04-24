@@ -1,0 +1,72 @@
+export const cryptoData = [
+  {
+    id: 'bitcoin',
+    name: 'Bitcoin',
+    symbol: 'BTC',
+    price: 62453.87,
+    percentChange1h: 0.12,
+    percentChange24h: -2.34,
+    percentChange7d: 4.56,
+    marketCap: 1224682283824,
+    volume24h: 34783257984,
+    circulatingSupply: 19608293,
+    maxSupply: 21000000,
+
+  },
+  {
+    id: 'ethereum',
+    name: 'Ethereum',
+    symbol: 'ETH',
+    price: 3468.29,
+    percentChange1h: 0.28,
+    percentChange24h: -1.87,
+    percentChange7d: 5.23,
+    marketCap: 417462509056,
+    volume24h: 15374929920,
+    circulatingSupply: 120368152,
+    maxSupply: null,
+   
+  },
+  {
+    id: 'tether',
+    name: 'Tether',
+    symbol: 'USDT',
+    price: 1.00,
+    percentChange1h: 0.01,
+    percentChange24h: 0.03,
+    percentChange7d: -0.05,
+    marketCap: 101293954048,
+    volume24h: 58741928960,
+    circulatingSupply: 101237888768,
+    maxSupply: null,
+
+  },
+  {
+    id: 'binance-coin',
+    name: 'BNB',
+    symbol: 'BNB',
+    price: 605.73,
+    percentChange1h: 0.31,
+    percentChange24h: -3.12,
+    percentChange7d: 2.78,
+    marketCap: 93235171328,
+    volume24h: 2145297408,
+    circulatingSupply: 153856150,
+    maxSupply: 200000000,
+   
+  },
+  {
+    id: 'cardano',
+    name: 'Cardano',
+    symbol: 'ADA',
+    price: 0.487,
+    percentChange1h: -0.22,
+    percentChange24h: -4.31,
+    percentChange7d: 1.65,
+    marketCap: 17123717120,
+    volume24h: 648123392,
+    circulatingSupply: 35183582976,
+    maxSupply: 45000000000,
+   
+  }
+]; 

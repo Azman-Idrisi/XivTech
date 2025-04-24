@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes pulse-green {
+  0% { background-color: rgba(16, 185, 129, 0.3); }
+  50% { background-color: rgba(16, 185, 129, 0.6); }
+  100% { background-color: rgba(16, 185, 129, 0); }
+}
+
+@keyframes pulse-red {
+  0% { background-color: rgba(239, 68, 68, 0.3); }
+  50% { background-color: rgba(239, 68, 68, 0.6); }
+  100% { background-color: rgba(239, 68, 68, 0); }
+}
+
+@keyframes pulse-yellow {
+  0% { background-color: rgba(245, 158, 11, 0.3); }
+  50% { background-color: rgba(245, 158, 11, 0.6); }
+  100% { background-color: rgba(245, 158, 11, 0); }
+}
+
+.highlight-green {
+  animation: pulse-green 1.5s ease-in-out;
+}
+
+.highlight-red {
+  animation: pulse-red 1.5s ease-in-out;
+}
+
+.highlight-yellow {
+  animation: pulse-yellow 1.5s ease-in-out;
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.websocket-connected {
+  background-color: rgba(16, 185, 129, 0.2);
+  border-left: 4px solid rgb(16, 185, 129);
+}
+
+.websocket-disconnected {
+  background-color: rgba(239, 68, 68, 0.2);
+  border-left: 4px solid rgb(239, 68, 68);
+}
+
+.websocket-connecting {
+  background-color: rgba(245, 158, 11, 0.2);
+  border-left: 4px solid rgb(245, 158, 11);
+}
